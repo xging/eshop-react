@@ -1,0 +1,19 @@
+.smallCart .modal-content{
+    width:325px;
+    position: absolute;
+    top: 52px;
+    right: -397px;
+    border: none;
+    border-radius: 0px;
+}
+.text-header {
+    font-size: 18px;
+    font-weight: 700;
+}
+.text-header span {
+    font-size: 16px;
+    font-weight: 500;
+}
+.total-sum {
+    text-align: right;
+}

@@ -1,0 +1,32 @@
+.nav-link {
+    align-items: center;
+    justify-content: center;
+    padding: 27px 0px;
+    border-bottom: #5ece7c00 2px solid;
+    -webkit-transition: border-color 0.5s ease;
+    -moz-transition: border-color 0.5s ease;
+    -o-transition: border-color 0.5s ease;
+    transition: border-color 0.5s ease;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #5ECE7B !important;
+    border-bottom: 2px solid #5ECE7B;
+    -webkit-transition: border-color 0.5s ease;
+    -moz-transition: border-color 0.5s ease;
+    -o-transition: border-color 0.5s ease;
+    transition: border-color 0.5s ease;
+}
+
+.nav-link.active {
+    color: #5ECE7B !important;
+    border-bottom: 2px solid #5ECE7B !important;
+    -webkit-transition: border-color 0.5s ease;
+    -moz-transition: border-color 0.5s ease;
+    -o-transition: border-color 0.5s ease;
+    transition: border-color 0.5s ease;
+}

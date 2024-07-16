@@ -1,0 +1,51 @@
+.navbar {
+    font-family: "Raleway", sans-serif;
+    height: 80px;
+}
+
+.navbar-container {
+  background-color: #fff;
+  position: relative;
+  z-index: 1051;
+}
+
+.navbar-nav, .logo, .cartDropdown, .cart-items-qty  {
+  position: relative;
+  z-index: 9999;
+}
+
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cartDropdown, .cartDropdown:hover, .cartDropdown:active, .cartDropdown:focus {
+    background-color: transparent !important;
+    border:none !important;
+}
+
+.cartDropdown:hover {
+    color: #5ECE7B;
+}
+.cartDropdown.active {
+  color: #5ECE7B;
+}
+
+.cart-items-qty {
+    width:20px;
+    height: 20px;
+    position:absolute;
+    top:0px;
+    left:22px;
+    display: none;
+    justify-content: center;
+    background-color: #1D1F22;
+    border-radius: 50%;
+    color:#fff;
+    padding:1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:14px;
+}

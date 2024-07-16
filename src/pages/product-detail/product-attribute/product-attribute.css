@@ -1,0 +1,104 @@
+.active {
+    border: 0;
+  }
+  
+  .size h5,
+  .color h5,
+  .capacity h5,
+  .generic h5,
+  .price h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .size .btn,
+  .capacity .btn,
+  .generic .btn {
+    min-width: 63px;
+    min-height: 45px;
+    border: 1px solid #1D1F22;
+    border-radius: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.05em;
+    color: #1D1F22;
+  }
+  
+  .size .btn:hover,
+  .capacity .btn:hover,
+  .generic .btn:hover {
+    background-color: #1D1F22;
+    color: #fff;
+  }
+  
+  .size .active .btn,
+  .capacity .active .btn,
+  .generic .active .btn {
+    background-color: #1D1F22;
+    color: #fff !important;
+  }
+  
+  .color .btn:hover {
+    border-color: #5ECE7B;
+    border-width: 2px;
+  }
+  
+  .color .active {
+    border: 2px solid #5ECE7B !important;
+  }
+  
+  .color .btn {
+    border-radius: 0;
+    border: none;
+    padding: 14px;
+    border-radius: 0;
+  }
+  
+  .product-attribute .attribute-box {
+    min-width: 36px;
+    min-height: 36px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .price p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1D1F22;
+  }
+  
+  .btn-success {
+    width: 292px;
+    height: 52px;
+    background-color: #5ECE7B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 32px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  .product-description p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.59px;
+    text-align: left;
+  
+  }

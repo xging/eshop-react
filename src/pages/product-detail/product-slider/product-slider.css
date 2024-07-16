@@ -1,0 +1,43 @@
+.thumbnail {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  
+  .thumbnail img {
+    width: 79px;
+    height: 80px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background: rgba(0, 0, 0, 0.73);
+    transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+    width: 32px;
+    height: 32px;
+    display: absolute;
+  }
+  
+  .carousel-control-prev {
+    top: 50%;
+    left: 5%;
+  }
+  
+  .carousel-control-next {
+    top: 50%;
+    right: 5%;
+  }
+  
+  .carousel-item {
+    height: 478px;
+  }
+  .img-fluid{
+    max-height: 478px !important;
+    object-fit: cover;
+  }
+  .float-left {
+    float:left;
+  }
+  .float-right{
+    float:right;
+  }
