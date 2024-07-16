@@ -77,6 +77,7 @@ class Navbar extends Component {
                   type="button"
                   id="cartDropdown"
                   data-toggle="modal" data-target="#smallCart"
+                  data-testid="cart-btn"
                   onClick={toggleCartDropdown}
                   aria-expanded={isCartDropdownOpen}
                 >

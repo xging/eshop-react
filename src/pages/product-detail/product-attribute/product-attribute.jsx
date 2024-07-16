@@ -167,12 +167,12 @@ class ProductAttribute extends Component {
             data-target="#smallCart"
             data-testid="add-to-cart"
           >
-            Add to Cart
+            ADD TO CART
           </button>
         ) : (
           // Display "Out of Stock" button if product is not in stock
-          <button className="btn btn-danger mt-3" disabled>
-            Out of Stock
+          <button className="btn btn-success mt-3 disabled" disabled>
+            ADD TO CART
           </button>
         )}
 

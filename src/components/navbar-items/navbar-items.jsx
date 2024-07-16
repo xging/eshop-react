@@ -32,7 +32,7 @@ class NavbarItems extends Component {
       <li className="nav-item px-3">
         {/* Link to the home page with dynamic class based on active state */}
         <Link
-          to="/"
+          to={`/${name}`}
           className={`home-link nav-link ${isActive ? 'active' : ''}`}
           data-toggle={isCartDropdownOpen ? 'modal' : ''}
           data-testid={isActive ? 'active-category-link' : 'category-link'}
@@ -41,7 +41,7 @@ class NavbarItems extends Component {
           // data-toggle="modal" 
           data-target="#smallCart"
         >
-          {name} {/* Display the name of the navigation item */}
+          {name}{/* Display the name of the navigation item */}
         </Link>
       </li>
     );

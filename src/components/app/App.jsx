@@ -318,6 +318,7 @@ class App extends Component {
       activeNavItem,
     } = this.state;
     const displayProducts = this.productsFilter(dataProducts, selectedCategory);
+    const paths = ["/", "/tech", "/clothes", "/all"];
     return (
       <ApolloProviderWrapper>
         <Router>
@@ -342,8 +343,10 @@ class App extends Component {
                   handleCreateOrder={() => this.handleCreateOrder(client)}
                 />
                 <Routes>
+                {paths.map((path) => (
                   <Route
-                    path="/"
+                  key={path}
+                  path={path}
                     element={
                       <Shop
                         data={displayProducts}
@@ -351,8 +354,8 @@ class App extends Component {
                         selectedCategory={selectedCategory}
                         addProduct={this.addProduct}
                       />
-                    }
-                  />
+                    } 
+                  />))}
                   <Route
                     path="/product/:id"
                     element={
